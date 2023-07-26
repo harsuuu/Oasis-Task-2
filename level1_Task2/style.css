@@ -1,0 +1,156 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fc0303;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+  
+  /* Header styles */
+  header {
+    padding: 20px 0;
+  }
+  
+  .logo {
+    margin: 0;
+    padding: 10px;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 30px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    padding: 0;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+  }
+  
+  nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  
+  /* Hero section styles */
+  #hero {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-text {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .hero-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .hero-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  
+  .skills-list li {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  
+  .experience-item {
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-top: 0;
+  }
